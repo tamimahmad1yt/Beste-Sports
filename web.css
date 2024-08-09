@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-color: rgb(24, 24, 24);
     font-family:'PT Sans',sans-serif;
 }
 nav{
@@ -22,11 +23,10 @@ nav a:active{
 }
 #showcase{
     background: url('images/Project3.1.jpg') no-repeat center/cover;
-    height: 100vh;
-    width: 100vh;
+    height: 40pc;
+    width: 1349px;
 }
 .content{
-        line-height: 1.6;
         margin: 110px 50px;
         text-align: center;
         color: rgb(238, 236, 236);
@@ -35,17 +35,14 @@ h1{
     font-size: 2.5rem;
 }
 .footer footer{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4,1fr);
-    padding: 2rem;
+    display:inline-flex;
     background-color: rgb(24, 24, 24);
-    text-align: left;
     font-size: 18px;
     color: rgb(255, 255, 255);
 }
 .footer footer ul{
     list-style: none;
+    margin: 20px 58px;
 }
 .footer footer ul li:first-child{
     font-size: 1.2rem;
