@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    background-color: rgb(24, 24, 24);
+    font-family:'PT Sans',sans-serif;
+}
+nav{
+    background-color: rgb(24, 24, 24);
+    padding: 14px 20px;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+}
+nav a{
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+}
+nav a:hover{
+    background-color: rgb(41, 39, 39);
+    box-shadow: 0 0 5px 2px rgb(180, 78, 78);
+}
+nav a:active{
+    background-color: rgb(59, 58, 58);
+    box-shadow: 0 0 5px 2px rgb(212, 98, 142);
+}
+#showcase{
+    background: url('images/Project3.1.jpg') no-repeat center/cover;
+    height: 100vh;
+}
+.content{
+    margin: 20vh 20px;
+    text-align: center;
+    color: rgb(238, 236, 236);
+}
+h1{
+    font-size: 2.5rem;
+}
+.ul{
+    display: inline-block;
+    border:2px solid firebrick;
+    background-color: black;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    list-style: none;
+    margin: 20px 45px;
+    box-shadow: 4px 4px 10px 6px rgba(131, 134, 134, 0.5);
+}
+.ul:hover{
+    border:2.2px solid rgb(120, 182, 92);
+}
+.footer{
+    background-color: rgb(24, 24, 24);
+    font-size: 20px;
+    color: rgb(236, 201, 201);
+    text-align: center;
+}
+.footer ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(79, 82, 85);
+    margin-bottom: 0.5rem;
+}
+.footer ul li a:hover{
+    color: rgb(119, 236, 236);
+}
+.footer ul li a:active{
+    color: rgb(0, 47, 255);
+}
+.copyright{
+    background-color: rgb(32, 32, 32);
+    padding: 1px;
+    color: rgb(138, 166, 167);
+    text-align: center;
+}
